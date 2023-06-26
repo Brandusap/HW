@@ -1,4 +1,4 @@
-public class Human {
+public class Human implements Vietate, InterfataA{
     String email;
     String address;
 
@@ -12,4 +12,13 @@ public class Human {
         System.out.println("Send email");
     }
 
+    @Override
+    public void metodaInterfata() {
+
+    }
+
+    @Override
+    public void metodaInterfataA() {
+
+    }
 }

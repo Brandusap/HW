@@ -48,6 +48,11 @@ public class Main {
         animal4.picioare();
         animal5.picioare();
 
+        Patruped animal6 = new Patruped();
+        animal6.nume = "Azorel";
+        animal6.picioare(); /*la punctul 2 si 3 din ex3 nu am facut ceva bine de nu-mi afiseaza cum credeam eu */
+
+
 
 
 
